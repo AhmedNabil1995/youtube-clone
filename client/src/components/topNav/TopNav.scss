@@ -1,0 +1,92 @@
+
+.topnav{
+    .container{
+        padding: 0 25px;
+
+        .row{
+            display: flex; 
+            justify-content: space-between;
+            align-items: center;
+
+            .col-1{
+                display: flex;
+                gap: 20px;
+                align-items: center;
+
+                span:first-child{
+                    i{
+                        font-size: 22px;
+                        cursor: pointer;
+                    }
+                }
+
+                span:nth-child(2){
+                    display: flex;
+                    gap: 2px;
+                    align-items: center;
+                    cursor: pointer;
+                    i{
+                        font-size: 22px;
+                        color: red;
+                    }
+                    p{
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+                 }
+            }
+
+            .col-2{
+                div{
+                    display: flex;
+                    align-items: center;
+
+                    input{
+                        width: 400px;
+                        padding: 10px;
+                        font-size: 17px;
+                        border: 1px solid #ddd;
+
+                    }
+                    button{
+                     padding: 10px;
+                     width: 50px;
+                     font-size: 17px;
+                     cursor: pointer;
+                     border: 1px solid #ddd;   
+                     border-left: none;
+                     outline: none;
+                    }
+                }
+
+            }
+            .col-3{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                i{
+                    font-size: 24px;
+                    cursor: pointer;
+                }
+                img{
+                    width: 35px;
+                    height: 35px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }
+                div{
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                    background-color: darkcyan;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+            }
+         }
+
+    }
+}
+

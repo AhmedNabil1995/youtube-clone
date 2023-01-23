@@ -1,0 +1,53 @@
+.video{
+    video{
+        width: 100%;
+        height: 400px;
+    }
+
+    .video_desc{
+        border-bottom: 0.5px solid #ddd;
+        display: flex;
+        justify-content: space-between;
+        .video_title{
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .video_info{
+            color: gray;
+        }
+        .controls{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            div{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                padding: 10px 20px;
+                border-radius: 20px;
+                background-color: #ddd;
+                span:first-child{
+                    border-right: 1px solid gray ;
+                    padding-right: 10px;
+                    
+                }
+                i{
+                    color:black ;
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+            }
+            button{
+                padding: 10px 20px;
+                border-radius: 20px;
+                border: none;
+                font-size: 20px;
+                background-color: black;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}

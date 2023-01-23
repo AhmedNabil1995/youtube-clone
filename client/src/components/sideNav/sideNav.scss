@@ -1,0 +1,30 @@
+.sidenav{
+    .item{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 10px 20px;
+
+        .item_icon{
+            font-size: 18px;
+        }
+        .item_name{
+            font-weight: 500;
+        }
+        &:hover{
+            background-color: #eee;
+        }
+        &.active{
+            background-color: #ddd;
+        }
+    }
+    hr{
+        border: 0.5px solid #ddd;
+    }
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
